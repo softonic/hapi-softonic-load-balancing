@@ -5,10 +5,10 @@
   "description": "Hapi plugin to provide health checks for a server in the Softonic infrastructure",
   "license": "Apache-2.0",
   "main": "index.js",
-  "homepage": "https://stash.redtonic/projects/NODE/repos/hapi-softonic-load-balancing",
+  "homepage": "https://github.com/softonic/hapi-softonic-load-balancing",
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.redtonic:7999/projects/NODE/repos/hapi-softonic-load-balancing.git"
+    "url": "git+https://github.com/softonic/hapi-softonic-load-balancing.git"
   },
   "files": [
     "es",

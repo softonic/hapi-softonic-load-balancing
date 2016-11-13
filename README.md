@@ -4,8 +4,6 @@ Hapi plugin to provide health checks for a server in the Softonic infrastructure
 
 The health check endpoint is `/loadbalancer.html`.
 
-Active maintainer: [ruben.norte@softonic.com](mailto:ruben.norte@softonic.com?subject=hapi-softonic-load-balancing)
-
 ## Installation
 
 ```bash
@@ -37,7 +35,7 @@ npm test
 
 ## Contribute
 
-1. Fork it: `git clone ssh://git@stash.redtonic:7999/NODE/hapi-softonic-load-balancing.git`
+1. Fork it: `git clone https://github.com/softonic/hapi-softonic-load-balancing.git`
 2. Create your feature branch: `git checkout -b feature/my-new-feature`
 3. Commit your changes: `git commit -am 'Added some feature'`
 4. Check the build: `npm run build`
