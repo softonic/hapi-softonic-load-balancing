@@ -27,7 +27,9 @@ describe('HapiSoftonicLoadBalancing', () => {
   describe('when it is registered', () => {
     describe('and the file is available', () => {
       it('should return a successful status code', async () => {
-        const { server } = await createServerWithPlugin({ path: 'index.js' });
+        const { server } = await createServerWithPlugin({
+          path: 'es/__tests__/fixtures/loadbalancer.html',
+        });
         const response = await server.inject('/loadbalancer.html');
         const { statusCode } = response;
 
