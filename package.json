@@ -1,6 +1,6 @@
 {
   "name": "hapi-softonic-load-balancing",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Rubén Norte <ruben.norte@softonic.com>",
   "description": "Hapi plugin to provide health checks for a server in the Softonic infrastructure",
   "license": "Apache-2.0",
