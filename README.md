@@ -17,12 +17,18 @@ npm install hapi-softonic-load-balancing
 // const HapiSoftonicLoadBalancing = require('hapi-softonic-load-balancing');
 
 // ES6
+import Inert from 'inert';
 import HapiSoftonicLoadBalancing from 'hapi-softonic-load-balancing';
 
+// Register dependency
+await server.register({
+  plugin: Inert,
+});
+
 // Registration
-server.register([
-  HapiSoftonicLoadBalancing
-], err => {});
+await server.register({
+  plugin: HapiSoftonicLoadBalancing
+});
 ```
 
 ## Testing
