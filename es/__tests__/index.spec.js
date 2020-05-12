@@ -1,5 +1,5 @@
-import hapi from 'hapi';
-import Inert from 'inert';
+import hapi from '@hapi/hapi';
+import Inert from '@hapi/inert';
 import HapiSoftonicLoadBalancing from '../index';
 
 async function createServerWithPlugin(options = {}) {
