@@ -1,6 +1,6 @@
 {
   "name": "hapi-softonic-load-balancing",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Rubén Norte <ruben.norte@softonic.com>",
   "description": "Hapi plugin to provide health checks for a server in the Softonic infrastructure",
   "license": "Apache-2.0",
@@ -31,7 +31,7 @@
     "node": ">=8.9.0"
   },
   "peerDependencies": {
-    "hapi": "17.x.x"
+    "@hapi/hapi": "17.x.x"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -41,7 +41,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.22.0",
-    "hapi": "^17.0.1",
+    "@hapi/hapi": "^17.0.1",
     "jest": "^23.5.0"
   },
   "babel": {
@@ -64,6 +64,6 @@
     "testRegex": "/__tests__/.*\\.spec\\.jsx?$"
   },
   "dependencies": {
-    "inert": "^5.1.0"
+    "@hapi/inert": "^5.2.0"
   }
 }
